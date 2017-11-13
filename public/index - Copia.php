@@ -11,8 +11,8 @@ $app = new Application($serviceContainer);
 
 $app->plugin(new RoutePlugin());
 
-/*$app->get('/', function() {
+$app->get('/', function() {
     echo "Hello World!";
-});*/
+});
 
-/*$app->start();*/
+$app->start();
