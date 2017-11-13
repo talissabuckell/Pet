@@ -1,0 +1,23 @@
+{
+    "name": "rafael/pet",
+    "authors": [
+        {
+            "name": "Rafael Deitos",
+            "email": "rafael.deitos@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "0.9.1",
+        "xtreamwayz/pimple-container-interop": "^1.0",
+        "aura/router": "3.1.0",
+        "zendframework/zend-diactoros": "1.3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PET\\": "src/"
+        }
+},
+    "require-dev": {
+        "fzaninotto/faker": "1.7.1"
+    }
+}
