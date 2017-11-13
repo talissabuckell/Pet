@@ -8,5 +8,5 @@ use Pet\ServiceContainerInterface;
 
 interface PluginInterface
 {
-    public function register(ServiceContainerInterface $container)
+    public function register(ServiceContainerInterface $container);
 }

@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1)
+declare(strict_types=1);
 namespace Pet;
 
 
@@ -35,7 +35,7 @@ class Application
 
     public function plugin(PluginInterface $plugin): void
     {
-        $plugin->register($this->serviceContainer)
+        $plugin->register($this->serviceContainer);
     }
 
     public function get($path, $action, $name = null): Application{
