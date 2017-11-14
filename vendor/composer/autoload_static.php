@@ -34,7 +34,7 @@ class ComposerStaticInit0d2f844641a14c1c65a18a9066959eeb
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
             'Phinx\\' => 6,
-            'PET\\' => 4,
+            'Pet\\' => 4,
         ),
         'I' => 
         array (
@@ -99,7 +99,7 @@ class ComposerStaticInit0d2f844641a14c1c65a18a9066959eeb
         array (
             0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
         ),
-        'PET\\' => 
+        'Pet\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

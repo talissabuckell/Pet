@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PET\\": "src/"
+            "Pet\\": "src/"
         }
 },
     "require-dev": {
